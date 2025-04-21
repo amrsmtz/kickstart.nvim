@@ -878,9 +878,7 @@ require('lazy').setup({
     config = function()
       ---@diagnostic disable-next-line: missing-fields
       require('github-theme').setup {
-        styles = {
-          comments = { italic = false }, -- Disable italics in comments
-        },
+        options = {},
       }
 
       -- Load the colorscheme here.
